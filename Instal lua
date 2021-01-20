@@ -1,0 +1,11 @@
+site
+http://www.lua.org/ftp/#manuals
+
+passos 
+$ mkdir lua_build
+$ cd lua_build
+$ curl -R -O http://www.lua.org/ftp/lua-5.3.4.tar.gz
+$ tar -zxf lua-5.3.4.tar.gz
+$ cd lua-5.3.4
+$ make linux test
+$ sudo make install 
